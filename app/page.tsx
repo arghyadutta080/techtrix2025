@@ -99,7 +99,7 @@ export default function AnimatedEvent() {
 
           {screen === 5 && (
             <div className="animate-fade-in space-y-6 text-white">
-              <div className="text-2xl">So, the waiting is over...</div>
+              <div className="text-2xl">⏲️ Toh Intizaar ki ghariya huii khatam ...</div>
             </div>
           )}
 
