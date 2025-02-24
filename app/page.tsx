@@ -17,11 +17,11 @@ export default function AnimatedEvent() {
     const timer2 = setTimeout(() => setScreen(3), 9000)
 
     // Screen 3: Date text (5-7s)
-    const timer3 = setTimeout(() => setScreen(4), 25000)
+    const timer3 = setTimeout(() => setScreen(4), 22000)
 
-    const timer4 = setTimeout(() => setScreen(5), 35000);
+    const timer4 = setTimeout(() => setScreen(5), 32000);
 
-    const timer5 = setTimeout(() => setScreen(6), 40000);
+    const timer5 = setTimeout(() => setScreen(6), 37000);
 
     return () => {
       clearTimeout(timer1)
