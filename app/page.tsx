@@ -17,11 +17,11 @@ export default function AnimatedEvent() {
     const timer2 = setTimeout(() => setScreen(3), 9000)
 
     // Screen 3: Date text (5-7s)
-    const timer3 = setTimeout(() => setScreen(4), 22000)
+    const timer3 = setTimeout(() => setScreen(4), 16000)
 
-    const timer4 = setTimeout(() => setScreen(5), 32000);
+    // const timer4 = setTimeout(() => setScreen(5), 32000);
 
-    const timer5 = setTimeout(() => setScreen(6), 37000);
+    // const timer5 = setTimeout(() => setScreen(6), 37000);
 
     return () => {
       clearTimeout(timer1)
@@ -69,8 +69,7 @@ export default function AnimatedEvent() {
             <div className="animate-fade-in space-y-4 text-white">
               <div className="text-2xl">Attendance to bas bahana tha…</div>
               <p className="text-xl font-bold tracking-wider sm:text-4xl">
-                …Asal mein humein bas yeh dekhna tha ki tum kitni jaldi QR scan
-                kar sakte ho! Aur maan na padega… tum to bohot tez nikle!👏
+                …Asal mein to tumhe Thank You bolna tha, Orientation Day-1 Attend karne k liye
                 <br />
                 {/* {date} */}
               </p>
@@ -78,14 +77,14 @@ export default function AnimatedEvent() {
           )}
 
           {/* Screen 4: Final Screen */}
-          {screen === 4 && (
+          {/* {screen === 4 && (
             <div className="animate-fade-in space-y-6 text-white">
               <div className="text-2xl">Abh jab aa hi gaye ho…</div>
               <p className="text-xl font-bold tracking-wider sm:text-4xl">
                 …To chalo Techtrix ke bareme thori baatchit kar lete hay!
-                <br />
+                <br /> */}
                 {/* {date} */}
-              </p>
+              {/* </p> */}
               {/* <div className="pt-4">
                 <a
                   href={siteUrl}
@@ -94,26 +93,26 @@ export default function AnimatedEvent() {
                   Click Here
                 </a>
               </div> */}
-            </div>
-          )}
+            {/* </div> */}
+          {/* )} */}
 
-          {screen === 5 && (
+          {/* {screen === 5 && (
             <div className="animate-fade-in space-y-6 text-white">
               <div className="text-2xl">⏲️ Toh Intizaar ki ghariya huii khatam ...</div>
             </div>
-          )}
+          )} */}
 
-          {screen === 6 && (
+          {screen === 4 && (
             <div className="animate-fade-in space-y-6 text-white">
               <div className="text-2xl">
-                Let's deep dive into the Techtrix-2025 Events
+                Oor yaad dilana tha, ki Event me Register karna maat vulna!!
               </div>
               <div className="">
                 <a
                   href={siteUrl}
                   className="inline-block rounded-full bg-purple-600 px-6 py-2 text-sm font-semibold text-white transition-colors hover:bg-purple-700"
                 >
-                  Click Here to explore
+                  Register Here
                 </a>
               </div>
             </div>
